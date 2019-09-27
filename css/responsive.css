@@ -1,0 +1,271 @@
+/*
+****************************************************************
+****************************************************************
+
+Template Name: Potfolio | A One Page Portfolio HTML Template
+Template URL: https://www.mzsbulbul.ga
+Description:  Portfolio is a multipurpose, fully professional 
+Personal CV/Resume, Portfolio or mini website template.
+Author: Md. Ziaus Samad
+Author URL: https://www.mzsbulbul.ga
+Version: 1.0
+Copyright: 2019 | Md Ziaus Samad | https://www.mzsbulbul.ga
+
+* This file contains the styling for the responsiveness.
+
+****************************************************************
+****************************************************************
+*/
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .newsletter-main h4 {
+        margin-top: 5px;
+        left: 4%;
+    }
+    
+    .newsletter-main input {
+        width: 65%;
+    }
+    
+    .newsletter-main button {
+        right: 9%;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px){
+    li.nav-item a.nav-link::before{
+        bottom: 5px;
+    }
+    
+    li.nav-item a.nav-link::after{
+        bottom: 5px;
+    }
+    
+    .main h2.type{
+        font-size: 50px;
+    }
+    
+    .blog .row .col-lg-4{
+        margin-bottom: 30px;
+    }
+    
+    .blog .row .col-lg-4:nth-child(3){
+        margin-bottom: 0;
+    }
+    
+    .portfolio-info .description h4{
+        font-size: 16px;
+    }
+    
+    .portfolio-info .description span{
+        display: none;
+    }
+    
+    .portfolio-item:hover .portfolio-info .description{
+        top: 0;
+    }
+    
+    .portfolio-item:hover .portfolio-info .icon-link {
+        bottom: -5px;
+    }
+    
+    .achievements-single h4 {
+        font-size: 15px;
+    }
+    
+    .post-image{
+        max-height: 400px;
+    }
+    
+    .newsletter-main h4 {
+        margin-top: 0px;
+    }
+    
+    .newsletter-main .form-row{
+        margin-top: 10px;
+    }
+    
+    .newsletter-main input {
+        width: 60%;
+        left: 15%;
+    }
+    
+    .newsletter-main button {
+        right: 0;
+    }
+    
+    .contact .social-icons a {
+        padding: 0 6px;
+    }
+    
+    .back_to_top {
+        right: -8%;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+    li.nav-item a.nav-link::before{
+        bottom: 5px;
+    }
+    
+    li.nav-item a.nav-link::after{
+        bottom: 5px;
+    }
+    
+    .main h2.type{
+        font-size: 45px;
+    }
+    
+    .about .col-md-7{
+        text-align: center;
+    }
+    
+    .education,
+    .experience,
+    .skills,
+    .about .col-md-7{
+        margin-top: 30px;
+    }
+
+    ul.filter li{
+        margin-bottom: 10px;
+    }
+    
+    .achievements .achievements-wrapper .row .col-md-4{
+        margin-bottom: 30px;
+    }
+    
+    .achievements .achievements-wrapper .row .col-md-4:last-child{
+        margin-bottom: 0;
+    }
+    
+    .blog .row .col-lg-4{
+        margin-bottom: 30px;
+    }
+    
+    .blog .row .col-lg-4:nth-child(3){
+        margin-bottom: 0;
+    }
+    
+    .post-image{
+        max-height: 400px;
+    }
+    
+    .newsletter-main h4 {
+        margin-top: 0px;
+    }
+    
+    .newsletter-main .form-row{
+        margin-top: 10px;
+    }
+    
+    .newsletter-main input {
+        width: 70%;
+        left: 15%;
+    }
+    
+    .newsletter-main button {
+        left: 33%;
+    }
+    
+    .contact .contact-information .row .col-md-3{
+        margin-bottom: 15px;
+    }
+    
+    .contact .social-icons a {
+        padding: 0 10px;
+    }
+    
+    .back_to_top {
+        right: -10%;
+    }
+
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 320px) and (max-width: 575px) {
+    li.nav-item a.nav-link::before{
+        bottom: 5px;
+    }
+    
+    li.nav-item a.nav-link::after{
+        bottom: 5px;
+    }
+    
+    #side-menu{
+        width: 200px;
+    }
+    
+    .main h2.type{
+        font-size: 26px;
+    }
+    
+    .about .col-md-7{
+        text-align: center;
+    }
+    
+    .about h4 {
+        font-size: 16px;
+    }
+    
+    .education,
+    .experience,
+    .skills,
+    .about .col-md-7{
+        margin-top: 30px;
+    }
+    
+    ul.filter li{
+        margin-bottom: 10px;
+    }
+    
+    .achievements .achievements-wrapper .row .col-md-4{
+        margin-bottom: 30px;
+    }
+    
+    .achievements .achievements-wrapper .row .col-md-4:last-child{
+        margin-bottom: 0;
+    }
+    
+    .blog .row .col-lg-4{
+        margin-bottom: 30px;
+    }
+    
+    .blog .row .col-lg-4:nth-child(3){
+        margin-bottom: 0;
+    }
+    
+    .newsletter-main h4 {
+        margin-top: 0px;
+        font-size: 18px;
+    }
+    
+    .newsletter-main input {
+        width: 90%;
+        left: 5%;
+    }
+    
+    .newsletter-main button {
+        left: 20%;
+    }
+    
+    .contact .contact-information .row .col-md-3{
+        margin-bottom: 15px;
+    }
+    
+    footer p{
+        font-size: 14px;
+    }
+    
+    .back_to_top {
+        right: -25%;
+    }
+}

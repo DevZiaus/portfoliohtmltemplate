@@ -32,4 +32,4 @@ JavaScript & jQuery with a modern look. Codes are well organized and commented a
 
  
  <p>Support: <br>
- If you need any help using the file or need special customizing please feel free to contact me via my Themeforest profile. If you have a moment, please rate this item, I'll appreciate it very much Thank you.</p>
+ If you need any help using the file or need special customizing please feel free to contact me via my <a href="https://www.mzsbulbul.ga">Website</a> contact form. If you have a moment, please leave a review  via my website contact form, I'll appreciate it very much. Thank you.</p>

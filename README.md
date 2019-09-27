@@ -1,5 +1,5 @@
 # portfoliohtmltemplate
-Portfolio - A One page Portfolio HTML Template is a multipurpose, fully professional Personal CV/Resume, Portfolio or mini website template. designed for anyone who wants to showcase his work, Expertise & Experience. It is  developed in HTML5, CSS3, BootStrap 4.3.1, 
+<strong>Portfolio - A One page Portfolio HTML Template</strong> is a multipurpose, fully professional Personal CV/Resume, Portfolio or mini website template. designed for anyone who wants to showcase his work, Expertise & Experience. It is  developed in HTML5, CSS3, BootStrap 4.3.1, 
 JavaScript & jQuery with a modern look. Codes are well organized and commented and named accordingly so its very easy to customize and update.
 
 <h2>Template Features:</h2>

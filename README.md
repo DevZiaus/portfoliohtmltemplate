@@ -4,6 +4,7 @@ JavaScript & jQuery with a modern look. Codes are well organized and commented a
 
 <h2>Template Features:</h2>
 <ul>
+    <li>Working Contact Form</li>
 	<li>Full Responsive</li>
 	<li>All Browser Compatible</li>
 	<li>Bootstrap Latest version</li>

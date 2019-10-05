@@ -1,9 +1,5 @@
 <?php
-if(isset($_POST['email'])) {
-
-    // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "mzsbulbul@gmail.com";
-    $email_subject = $_POST['subject'];
+if(isset($_POST['contact-submit'])) {
 
     function died($error) {
         // your error code can go here
@@ -25,8 +21,8 @@ if(isset($_POST['email'])) {
 
 
 
-    $full_name = $_POST['name']; // required
-    $email_from = $_POST['email']; // required
+    $full_name = trim($_POST['name']); // required
+    $email_from = trim($_POST['email']); // required
     $email_subject = $_POST['subject']; // not required
     $message = $_POST['message']; // required
 
@@ -50,6 +46,10 @@ if(isset($_POST['email'])) {
   if(strlen($error_message) > 0) {
     died($error_message);
   }
+  
+	// EDIT THE 2 LINES BELOW AS REQUIRED
+    $email_to = "yourmail@domain.com"; //here goes your email address. Change this to your own email adderess
+    $subject = "$full_name sent a message on $email_subject via your website www.yourdomain.comm"; // here change your website address
 
     $email_message = "Form details below.\n\n";
 
@@ -59,23 +59,28 @@ if(isset($_POST['email'])) {
       return str_replace($bad,"",$string);
     }
 
-
-
     $email_message .= "Full Name: ".clean_string($full_name)."\n";
     $email_message .= "Email: ".clean_string($email_from)."\n";
     $email_message .= "Subject: ".clean_string($email_subject)."\n";
     $email_message .= "Message: ".clean_string($message)."\n";
 
 // create email headers
-$headers = 'From: '.$email_from."\r\n".
-'Reply-To: '.$email_from."\r\n" .
-'X-Mailer: PHP/' . phpversion();
-@mail($email_to, $email_subject, $email_message, $headers);
+    $headers  = "MIME-Version: 1.0\r\n";
+    $headers .= "Content-type: text/plain; charset=iso-8859-1\r\n";
+    $headers .= "From: " .$full_name ."<".$email_from . ">\r\n";
+    $headers .= "Reply-To: ".$email_from."\r\n";
+    $headers .= "X-Priority: 1\r\n";
+    $headers .= "X-MSMail-Priority: High\r\n";
+    $headers .= "X-Mailer: PHP/" . phpversion();
+    mail($email_to, $subject, $email_message, $headers);
 ?>
 
 <!-- include your own success html here -->
 
-Thank you for contacting us. We will be in touch with you very soon.
+<h2>Thank you for contacting us.</h2>
+<h4> We will be in touch with you very soon.</h4>
+<a href="index.html">&laquo; Go to Home Page</a>
+
 
 <?php
 

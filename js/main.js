@@ -234,11 +234,9 @@ doc.ready(function () {
 /*------------------------------------------------
             12 - Achievement Number Counter
     ---------------------------------------------------*/
-    $(function(){
 	  $('.count-num').rCounter({
 	    duration: 50
 	  });//Md. Ziaus Samad
-	});
     
 /*------------------------------------------------
             13 - Back To Top Button

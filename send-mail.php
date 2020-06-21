@@ -59,7 +59,7 @@ if(isset($_POST['contact-submit'])) {
       return str_replace($bad,"",$string);
     }
 
-    $email_message .= "Full Name: ".clean_string($full_name)."\n";
+    $email_message .= "Name: ".clean_string($full_name)."\n";
     $email_message .= "Email: ".clean_string($email_from)."\n";
     $email_message .= "Subject: ".clean_string($email_subject)."\n";
     $email_message .= "Message: ".clean_string($message)."\n";
